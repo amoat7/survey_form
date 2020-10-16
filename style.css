@@ -1,0 +1,51 @@
+html{
+
+    width: 100%;
+    height: 100%;
+}
+
+body, main{
+ 
+    width: 100vw;
+    height: 100vh; 
+    
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("survey.jpg.jpg");
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    filter: grayscale(0.1) opacity(0.2);
+}
+
+#main{
+
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+
+.main-section{
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.main-form{
+
+    grid-column:  2/3;
+    
+}
+
+#title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#survey-form{
+    background-color: rgb(238, 218, 169);
+}
